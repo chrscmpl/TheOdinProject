@@ -82,6 +82,6 @@ Google Chrome
 
 ---
 
-<font size=16>**In your own words, explain what happens when you run a search on google.com**</font>
+<font size="16">**In your own words, explain what happens when you run a search on google.com**</font>
 
 My Request goes through different layers of Routers through the Internet, until it reaches one of Google’s Servers, Google parses the string I entered and finds related external Web Pages, then composes a Web Page containing links to each of these Web Pages from the most to less relevant and sends it to me through packets, that reach me through different paths, but know exactly how to reach me thanks to the information added to my request by each router it went through earlier.

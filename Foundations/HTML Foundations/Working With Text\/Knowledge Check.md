@@ -1,30 +1,30 @@
 ## **How do you create a paragraph in HTML?**
 
-With the <p> tag.
+With the `<p>` tag.
 
 ---
 
 ## **How do you create a heading in HTML?**
 
-With the <h1>, <h2>, ..., <h6> tags.
+With the `<h1>`, `<h2>`, ..., `<h6>` tags.
 
 ---
 
 ## **How many different levels of headings are there and what is the difference between them?**
 
-There are 6 levels of headings, <h1> is the most important and <h6> is the less important.
+There are 6 levels of headings, `<h1>` is the most important and `<h6>` is the less important.
 
 ---
 
 ## **What element should you use to make text bold and important?**
 
-The <strong> tag.
+The `<strong>` tag.
 
 ---
 
 ## **What element should you use to make text italicized to add emphasis to it?**
 
-The <em> tag.
+The `<em>` tag.
 
 ---
 
@@ -44,4 +44,4 @@ The two elements are called Siblings.
 
 With this syntax
 
-<!-- comment -->
+`<!-- comment -->`

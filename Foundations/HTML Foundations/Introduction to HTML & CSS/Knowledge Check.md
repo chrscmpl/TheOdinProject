@@ -1,6 +1,6 @@
 ## **What do HTML and CSS stand for?**
 
-HTML = 'Hypertext Markup Language',
+HTML = 'HyperText Markup Language',
 CSS = 'Cascading Style Sheets'.
 
 ---

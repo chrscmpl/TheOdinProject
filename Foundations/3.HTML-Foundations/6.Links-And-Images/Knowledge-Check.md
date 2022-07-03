@@ -6,7 +6,7 @@ The anchor tag `<a>`.
 
 ## **What is an attribute?**
 
-It is an argument to be put in the opening tag of an element that adds additional information to it.
+<p>It is an argument to be put in the opening tag of an element that adds additional information to it.</p>
 ex. `<a href="./pages/about.html">about</a>`
 
 ---

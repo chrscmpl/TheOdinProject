@@ -6,7 +6,8 @@ The anchor tag `<a>`.
 
 ## **What is an attribute?**
 
-It is an argument to be put in the opening tag of an element that adds additional information to it. ex. `<a href="./pages/about.html">about</a>`
+It is an argument to be put in the opening tag of an element that adds additional information to it.
+ex. `<a href="./pages/about.html">about</a>`
 
 ---
 
@@ -31,9 +32,12 @@ A Relative Link is used to navigate between the files and folders of a Website, 
 
 ## **What two attributes do images always need to have?**
 
-they always need to have the `src` and `alt` attributes like so:
+They always need to have the `src` and `alt` attributes like so:
 `<img src="../images/dog.jpg" alt="A dog">`
+
+<p>
 The `src` attribute specifies an absolute or relative link to the image and the `alt` attribute is used to describe the image and it is displayed if the browser fails to reach the image, it is read by screen readers, and it also influences results on search engines.
+</p>
 
 ---
 

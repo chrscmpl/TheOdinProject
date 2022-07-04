@@ -102,7 +102,7 @@
 
 <ul>
 <li>
-<h2>Specificity</h2>
+Specificity
 <ol>
 <li>Inline styles</li>
 <li>ID selectors</li>
@@ -112,10 +112,10 @@
 </ol>
 </li>
 <li>
-<h2>Inheritance</h2>
+Inheritance
 </li>
 <li>
-<h2>Rule Order</h2>
+Rule Order
 </li>
 </ul>
 

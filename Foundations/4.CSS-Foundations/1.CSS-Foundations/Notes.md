@@ -4,28 +4,28 @@
 <li>Universal Selector
 
     * {
-        property:value;
+        property: value;
     }
 
 </li>
 <li>Type Selector
 
     div {
-        property:value;
+        property: value;
     }
 
 </li>
 <li>Class Selectors
 
     .class-name {
-        property:value;
+        property: value;
     }
 
 </li>
 <li>ID Selectors
 
     #id {
-        property:value;
+        property: value;
     }
 
 </li>
@@ -33,21 +33,21 @@
 
     .class-name1,
     .class-name2 {
-        property:value;
+        property: value;
     }
 
 </li>
 <li>Chaining Selector
 
     .class-name1.class-name2 {
-        property:value;
+        property: value;
     }
 
 </li>
 <li>Descendant Combinator
 
     .class-ancestor .class-child {
-        property:value;
+        property: value;
     }
 
 </li>
@@ -84,6 +84,8 @@
         /* font-weight: 700;      */
         text-align: center;
     }
+
+<a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">CSS Web Safe Fonts</a>
 
 </li>
 <li>Size

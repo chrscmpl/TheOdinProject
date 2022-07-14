@@ -26,3 +26,5 @@ My notes, Knowledge Checks, Assignments and Projects accumulated while going thr
   - [Flexbox](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox)
     - [Introduction to Flexbox](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/1.Introduction-to-Flexbox)
     - [Growing and Shrinking](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/2.Growing-and-Shrinking)
+    - [Axes](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/3.Axes)
+    - [Alignment](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/4.Alignment)

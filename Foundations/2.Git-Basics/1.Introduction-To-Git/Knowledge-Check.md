@@ -6,7 +6,7 @@ Git is a Distributed Version Control System.
 
 ## **What are the differences between Git and a text editor in terms of what they save and their record keeping?**
 
-A VCS keeps track of the entire history of the project (Repository), composed by multiple files, giving the opportunity to revert specific or all files to aprevious state, to create branches and to collaborate between multiple clients.
+A VCS keeps track of the entire history of the project (Repository), composed by multiple files, giving the opportunity to revert specific or all files to a previous state, to create branches and to collaborate between multiple clients.
 
 ---
 

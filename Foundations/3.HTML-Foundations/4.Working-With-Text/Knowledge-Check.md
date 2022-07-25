@@ -12,7 +12,7 @@ With the `<h1>`, `<h2>`, ..., `<h6>` tags.
 
 ## **How many different levels of headings are there and what is the difference between them?**
 
-There are 6 levels of headings, `<h1>` is the most important and `<h6>` is the less important.
+There are 6 levels of headings, `<h1>` is the most important and bigger and `<h6>` is the less important and smaller.
 
 ---
 

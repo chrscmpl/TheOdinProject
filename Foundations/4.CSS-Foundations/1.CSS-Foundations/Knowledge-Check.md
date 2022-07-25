@@ -5,7 +5,7 @@
           <link rel="stylesheet" href="./style.css">
 
 - Internal CSS consists of adding css contents directly in the html file inside a `<style>` tag. This can cause the HTML file to become bigger and messier.
-- inline CSS is the messiest one and consists of adding the style to a single element directly by giving it a style attribute.
+- inline CSS is the messiest one and consists of adding the style to a single element directly by giving it a `style` attribute.
 
 ---
 

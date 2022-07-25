@@ -6,4 +6,4 @@ A flex container is an element with the property `display: flex;`. A flex item i
 
 ## **How do you create a flex item?**
 
-By inserting an element inside a flex contaier.
+By inserting an element inside a flex container.

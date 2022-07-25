@@ -6,7 +6,7 @@ A Network is a group of different computers physically connected, usually throug
 
 ## **What is the internet?**
 
-The Internet is an infrastructure of wires that go underground and under the Sea that connect the whole world, the Infrastructure ramificates through nationals, regional, …, locals Internet Hubs that control all of the flow of information.
+The Internet is an infrastructure of wires that go underground and under the Sea that connect the whole world, the Infrastructure ramifies through national, regional, …, local Internet Hubs that control all of the flow of information.
 
 ---
 
@@ -18,7 +18,7 @@ An IP address is what the web browser and the operating system use to know where
 
 ## **What is a router?**
 
-A Router is always placed of a ramification of the main cable we can think of as the Internet, every request will pass through different routers, and each one will add a “layer” to the request, that will tell what router it pass trough last, so that when it arrives to the server the path it went through to reach it is already known.
+A Router is always placed on a ramification of the main cable we can think of as the Internet, every request will pass through different routers, and each one will add a “layer” to the request, that will tell what router it pass trough last, so that when it arrives to the server the path it went through to reach it is already known.
 
 ---
 
@@ -48,7 +48,7 @@ A Server is a computer directly connected to the Internet that takes requests an
 
 ## **What is a web page?**
 
-A Web Page is composed through various technologies, the most basics of which are the HTML files, which describe how the content should be displayed on the Web Browser, and inside them have <link> tags that connect to a CSS file, which controls the style of the Web Page, and <script> tags that connect to a JavaScript file, that makes the page interactable. It is also composed by assets such as images, videos, etc..
+A Web Page is composed through various technologies, the most basics of which are the HTML files, which describe how the content should be displayed on the Web Browser, and inside them have `<link>` tags that connect to a CSS file, which controls the style of the Web Page, and `<script>` tags that connect to a JavaScript file, that makes the page interactable. It is also composed by assets such as images, videos, etc..
 
 ---
 

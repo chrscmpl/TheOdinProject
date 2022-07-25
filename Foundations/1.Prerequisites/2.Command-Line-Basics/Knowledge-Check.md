@@ -12,13 +12,13 @@ Ctrl+Alt+T.
 
 ## **How can you navigate to a particular directory?**
 
-_cd arg_.
+`cd *arg*`.
 
 ---
 
 ## **Where will cd on its own navigate you to?**
 
-The current User’s home directory or ~.
+The current User’s home directory or `~`.
 
 ---
 
@@ -30,38 +30,38 @@ To the directory containing the directory I am currently in.
 
 ## **How do you display the name of the directory you are currently in?**
 
-_pwd_.
+`pwd`.
 
 ---
 
 ## **How do you display the contents of the directory you are currently in?**
 
-_ls_ (-a -l -h -F -R…) _arg_.
+`ls (-a -l -h -F -R…) *arg*`.
 
 ---
 
 ## **How do you create a new directory?**
 
-_mkdir arg_.
+`mkdir *arg*`.
 
 ---
 
 ## **How do you create a new file?**
 
-_touch arg_
+`touch *arg*`
 or
-_echo arg_text > arg_file_
+`echo *arg_text* > *arg_file_*`
 or
-_nano arg or vim arg_.
+`nano *arg*` or `vim *arg*`.
 
 ---
 
 ## **How do you destroy a directory or file?**
 
-_rm -rf arg_.
+`rm -rf *arg*`.
 
 ---
 
 ## **How do you rename a directory or file?**
 
-_mv arg_old arg_new arg_optional_path_.
+`mv *arg_old* *arg_new* *arg_optional_new_path_*`.

@@ -6,7 +6,7 @@ To let the Browser know what kind of file it is working with.
 
 ## **What is the HTML element?**
 
-An part of the content of a WebPage, it is delimited by starting and ending tags, and can contain other elements within it.
+The element containing the head and body of the Webpage.
 
 ---
 

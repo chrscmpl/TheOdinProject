@@ -1,6 +1,6 @@
 ## **From inside to outside, what is the order of box-model properties?**
 
-First the is the space occupied by the actual content of the element, after that there is **padding**, which represents the space between the content and the **border** of the element,
+First there is the space occupied by the actual content of the element, after that there is **padding**, which represents the space between the content and the **border** of the element,
 and outside of the border there is **margin**, which represents the minimum space there must be between the element and other elements on the page.
 
 ---

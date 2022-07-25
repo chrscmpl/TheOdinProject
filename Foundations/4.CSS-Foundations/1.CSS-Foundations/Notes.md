@@ -1,164 +1,134 @@
-## **Selectors**
+## **Select
 
-<ul>
-<li>Universal Selector
+- Universal Selector
 
-    * {
-        property: value;
-    }
+        * {
+            property: value;
+        }
 
-</li>
-<li>Type Selector
+- Type Selector
 
-    div {
-        property: value;
-    }
+        div {
+            property: value;
+        }
 
-</li>
-<li>Class Selectors
+- Class Selectors
 
-    .class-name {
-        property: value;
-    }
+        .class-name {
+            property: value;
+        }
 
-</li>
-<li>ID Selectors
+- ID Selectors
 
-    #id {
-        property: value;
-    }
+        #id {
+            property: value;
+        }
 
-</li>
-<li>Grouping Selector
+- Grouping Selector
 
-    .class-name1,
-    .class-name2 {
-        property: value;
-    }
+        .class-name1,
+        .class-name2 {
+            property: value;
+        }
 
-</li>
-<li>Chaining Selector
+- Chaining Selector
 
-    .class-name1.class-name2 {
-        property: value;
-    }
+        .class-name1.class-name2 {
+            property: value;
+        }
 
-</li>
-<li>Descendant Combinator
+- Descendant Combinator
 
-    .class-ancestor .class-child {
-        property: value;
-    }
+        .class-ancestor .class-child {
+            property: value;
+        }
 
-</li>
-</ul>
 
 ---
 
 ## **Properties**
 
-<ul>
-<li>color and background-color
+- color and background-color
 
-    selector {
-    /* keyword example: */
-    color: red;
-    /* hex example: */
-    background-color: #1100ff;
-    /* rgb example: */
-    color: rgb(100, 0, 127);
-    /* rgba example: */
-    background-color: rgba(100, 0, 127, 0.3);
-    /* hsl example: */
-    color: hsl(15, 82%, 56%);
-    }
+        selector {
+        /* keyword example: */
+        color: red;
+        /* hex example: */
+        background-color: #1100ff;
+        /* rgb example: */
+        color: rgb(100, 0, 127);
+        /* rgba example: */
+        background-color: rgba(100, 0, 127, 0.3);
+        /* hsl example: */
+        color: hsl(15, 82%, 56%);
+        }
 
-</li>
-<li>Typography Basics and text-align
+- Typography Basics and text-align
 
-    selector {
-        font-family: "Times New Roman", sans-serif;
-        font-size: 22px;
-        font-weight: bold;
-        /* or you can use a value */
-        /* font-weight: 700;      */
-        text-align: center;
-    }
+        selector {
+            font-family: "Times New Roman", sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+            /* or you can use a value */
+            /* font-weight: 700;      */
+            text-align: center;
+        }
 
-<a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">CSS Web Safe Fonts</a>
+[CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp)
 
-</li>
-<li>Size
+- Size
 
-    img {
-        height: auto;
-        width: 500px;
-    }
+        img {
+            height: auto;
+            width: 500px;
+        }
 
-</li>
-</ul>
 
 ---
 
 ## **The Cascade**
 
-<ul>
-<li>
-Specificity
-<ol>
-<li>Inline styles</li>
-<li>ID selectors</li>
-<li>Class selectors</li>
-<li>Type selectors</li>
-<li>Universal selector</li>
-</ol>
-</li>
-<li>
-Inheritance
-</li>
-<li>
-Rule Order
-</li>
-</ul>
+- Specificity
+    1. Inline styles
+    1. ID selectors
+    1. Class selectors
+    1. Type selectors
+    1. Universal selector
+
+- Inheritance
+- Rule Order
 
 ---
 
 ## **Adding CSS to HTML**
 
-<ul>
-<li>
-External CSS
+- External CSS
 
-    <head>
-    <link rel="stylesheet" href="styles.css">
-    ...
-    </head>
+        <head>
+        <link rel="stylesheet" href="styles.css">
+        ...
+        </head>
 
-</li>
-<li>
-Internal CSS
 
-    <head>
-    <style>
-        div {
-        color: white;
-        background-color: black;
-        }
+- Internal CSS
 
-        p {
-        color: red;
-        }
-    </style>
-    ...
-    </head>
+        <head>
+        <style>
+            div {
+            color: white;
+            background-color: black;
+            }
 
-</li>
-<li>
-Inline CSS
+            p {
+            color: red;
+            }
+        </style>
+        ...
+        </head>
 
-    <body>
-    <div style="color: white; background-color: black;">...</div>
-    </body>
 
-</li>
-</ul>
+- Inline CSS
+
+        <body>
+        <div style="color: white; background-color: black;">...</div>
+        </body>

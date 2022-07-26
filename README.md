@@ -28,3 +28,4 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - [Growing and Shrinking](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/2.Growing-and-Shrinking)
     - [Axes](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/3.Axes)
     - [Alignment](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/4.Alignment)
+    - **[PROJECT: Landing Page](https://github.com/chrscmpl/odin-landing-page)**

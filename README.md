@@ -29,3 +29,6 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - [Axes](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/3.Axes)
     - [Alignment](https://github.com/chrscmpl/TOP/tree/main/Foundations/5.Flexbox/4.Alignment)
     - **[PROJECT: Landing Page](https://github.com/chrscmpl/odin-landing-page)**
+  - [Javascript Basics](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics)
+    - [Fundamentals Part 1](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/1.Fundamentals-Part-1)
+    - [Fundamentals Part 2](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/2.Fundamentals-Part-2)

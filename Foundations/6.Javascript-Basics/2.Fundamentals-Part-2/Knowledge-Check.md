@@ -72,7 +72,7 @@ By preceding them with `\`.
 
 - OR `||` essentially works like a boolean OR but it actually returns the first truthy value in an expression instead of true, and if no value is truthy it returns the last value instead of false.
 - AND `&&` essentially works like a boolean AND but it actually returns the first falsy value in an expression instead of false, and if no value is falsy it returns the last value instead of true.
-- NOT `!` works like a boolean NOT and it converts the value to it's boolean representation so writing `!!value` is the same as `Boolean(Value)`.
+- NOT `!` works like a boolean NOT and it converts the value to it's boolean representation so writing `!!value` is the same as `Boolean(value)`.
 
 ---
 
@@ -104,7 +104,8 @@ Truthy values are values which will evaluate to true in a boolean expression, fa
 - `null`
 - `undefined`
 - `NaN`
-  Everything else is truthy.
+
+Everything else is truthy.
 
 ---
 
@@ -157,20 +158,20 @@ We can nest multiple conditionals like if statements:
     {
       if(...)
       {
-
+        ...
       }
       else
       {
-
+        ...
       }
     }
     else if(...)
     {
-
+      ...
     }
     else
     {
-
+      ...
     }
 
 Or even ternary operators:

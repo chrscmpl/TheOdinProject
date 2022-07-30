@@ -32,3 +32,9 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
   - [Javascript Basics](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics)
     - [Fundamentals Part 1](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/1.Fundamentals-Part-1)
     - [Fundamentals Part 2](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/2.Fundamentals-Part-2)
+    - [Javascript Developer Tools](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/3.Javascript-Developer-Tools)
+    - [Fundamentals Part 3](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/4.Fundamentals-Part-3)
+    - [Problem Solving](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/5.Problem-Solving)
+    - [Understanding Errors](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/6.Understanding-Errors)
+    - **[PROJECT: Rock Paper Scissors](#)**
+    - [Clean Code](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/8.Clean-Code)

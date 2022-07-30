@@ -19,7 +19,7 @@
 
 ## **What is the relationship between null and undefined?**
 
-`undefined` should not be assigned to a variable manually and it should only represent uninitialized or not declared variables, if a value is not known, `null` should be assigned instead.
+`undefined` should not be assigned to a variable manually and it should only represent uninitialized variables, if a value is not known, `null` should be assigned instead.
 In boolean expressions they are always equal to each other and nothing else, unless the strict equality `===` operator is used.
 
 ---

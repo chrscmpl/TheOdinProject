@@ -8,7 +8,7 @@
 
 ## **Which of the three variable declarations should you avoid and why?**
 
-`var`, because `let` is the new standard I guess.
+`var`, because it doesn't provide block scope.
 
 ---
 

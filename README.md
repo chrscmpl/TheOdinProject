@@ -36,5 +36,5 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - [Fundamentals Part 3](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/4.Fundamentals-Part-3)
     - [Problem Solving](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/5.Problem-Solving)
     - [Understanding Errors](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/6.Understanding-Errors)
-    - **[PROJECT: Rock Paper Scissors](#)**
+    - **[PROJECT: Rock Paper Scissors](https://github.com/chrscmpl/odin-rock-paper-scissors)**
     - [Clean Code](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/8.Clean-Code)

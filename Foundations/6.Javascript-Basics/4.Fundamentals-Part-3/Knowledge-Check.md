@@ -19,8 +19,8 @@ factorial(5);
 Functions used in expressions or passed as arguments to other functions, written inline without giving them a name;
 
 ```javascript
-btn.addEventListener("click", function () {
-  alert("You clicked the button");
+btn.addEventListener('click', function () {
+	alert('You clicked the button');
 });
 ```
 
@@ -43,7 +43,7 @@ It's the value a function returns in an expression when called.
 Arrow functions are a more concise way to write anonymous functions.
 
 ```javascript
-array.forEach((element) => console.log(element));
+array.forEach(element => console.log(element));
 ```
 
 If there is exactly one argument the parentheses can be omitted (if there are none they must be present), and if there is only one line in the body of the function, both curly brackets and return keyword can be omitted as well.

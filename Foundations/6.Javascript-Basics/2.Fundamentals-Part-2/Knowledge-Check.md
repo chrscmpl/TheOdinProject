@@ -46,11 +46,11 @@ Backtick quotes `` ` ``.
 
 By inserting them in the template literal like this
 
-    `this is a template literal and it ends with an embedded expression or variable ${something}`;
+    	`this is a template literal and it ends with an embedded expression or variable ${something}`;
 
 Or with the `+` operator for normal strings
 
-    "this is a normal string followed by an expression/variable/string literal" + something;
+    	"this is a normal string followed by an expression/variable/string literal" + something;
 
 ---
 
@@ -117,36 +117,36 @@ Conditional statements include if else, switch case and the ternary operator.
 
 ## **What is the syntax for an if/else conditional?**
 
-    if(condition)
-    {
-      ...
-    }
-    else
-    {
-      ...
-    }
+    	if(condition)
+    	{
+    		...
+    	}
+    	else
+    	{
+    		...
+    	}
 
 ---
 
 ## **What is the syntax for a switch statement?**
 
-    switch(expression)
-    {
-      case expression1:
-        ...
-        break;
-      case expression2:
-        ...
-        break;
-      default:
-        ...
-    }
+    	switch(expression)
+    	{
+    		case expression1:
+    			...
+    			break;
+    		case expression2:
+    			...
+    			break;
+    		default:
+    			...
+    	}
 
 ---
 
 ## **What is the syntax for a ternary operator?**
 
-    condition ? expression returned if true : expression returned if false;
+    	condition ? expression returned if true : expression returned if false;
 
 ---
 
@@ -154,26 +154,26 @@ Conditional statements include if else, switch case and the ternary operator.
 
 We can nest multiple conditionals like if statements:
 
-    if(...)
-    {
-      if(...)
-      {
-        ...
-      }
-      else
-      {
-        ...
-      }
-    }
-    else if(...)
-    {
-      ...
-    }
-    else
-    {
-      ...
-    }
+    	if(...)
+    	{
+    		if(...)
+    		{
+    			...
+    		}
+    		else
+    		{
+    			...
+    		}
+    	}
+    	else if(...)
+    	{
+    		...
+    	}
+    	else
+    	{
+    		...
+    	}
 
 Or even ternary operators:
 
-    let variable = condition1 ? ... : condition2 ? ... : ...
+    	let variable = condition1 ? ... : condition2 ? ... : ...

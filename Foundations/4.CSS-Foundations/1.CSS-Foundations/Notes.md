@@ -1,4 +1,4 @@
-## **Select
+## \*\*Select
 
 - Universal Selector
 
@@ -43,7 +43,6 @@
             property: value;
         }
 
-
 ---
 
 ## **Properties**
@@ -83,17 +82,17 @@
             width: 500px;
         }
 
-
 ---
 
 ## **The Cascade**
 
 - Specificity
-    1. Inline styles
-    1. ID selectors
-    1. Class selectors
-    1. Type selectors
-    1. Universal selector
+
+  1. Inline styles
+  1. ID selectors
+  1. Class selectors
+  1. Type selectors
+  1. Universal selector
 
 - Inheritance
 - Rule Order
@@ -108,7 +107,6 @@
         <link rel="stylesheet" href="styles.css">
         ...
         </head>
-
 
 - Internal CSS
 
@@ -125,7 +123,6 @@
         </style>
         ...
         </head>
-
 
 - Inline CSS
 

@@ -2,7 +2,7 @@
 
 - External CSS is the preferred method of adding style to an HTML page and consists of adding an external CSS file in the directory of a project and link it to the HTML page by adding in the head:
 
-          <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style.css">
 
 - Internal CSS consists of adding css contents directly in the html file inside a `<style>` tag. This can cause the HTML file to become bigger and messier.
 - inline CSS is the messiest one and consists of adding the style to a single element directly by giving it a `style` attribute.
@@ -12,11 +12,11 @@
 ## **What is the syntax for class and ID selectors?**
 
     .class-selector{
-        property: value;
+    	property: value;
     }
 
     #id-selector{
-        property: value;
+    	property: value;
     }
 
 ---
@@ -27,7 +27,7 @@ By grouping them:
 
     selector1,
     selector2{
-        property: value;
+    	property: value;
     }
 
 ---
@@ -37,7 +37,7 @@ By grouping them:
 By chaining them:
 
     #title.primary{
-        property: value;
+    	property: value;
     }
 
 ---
@@ -47,7 +47,7 @@ By chaining them:
 It targets only the elements that have the second selector and have an ancestor with the first selector:
 
     #ancestor #child{
-        property: value;
+    	property: value;
     }
 
 ---

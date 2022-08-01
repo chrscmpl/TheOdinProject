@@ -38,3 +38,5 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - [Understanding Errors](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/6.Understanding-Errors)
     - **[PROJECT: Rock Paper Scissors](https://github.com/chrscmpl/odin-rock-paper-scissors)**
     - [Clean Code](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/8.Clean-Code)
+    - [Fundamentals Part 4](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/9.Fundamentals-Part-4)
+    - [DOM Manipulation and Events](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/10.DOM-Manipulation-and-Events)

@@ -40,3 +40,6 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - [Clean Code](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/8.Clean-Code)
     - [Fundamentals Part 4](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/9.Fundamentals-Part-4)
     - [DOM Manipulation and Events](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/10.DOM-Manipulation-and-Events)
+    - **[PROJECT: Etch a Sketch](https://github.com/chrscmpl/odin-etch-a-sketch)**
+    - [Fundamentals Part 5](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/12.Fundamentals-Part-5)
+    - **[PROJECT: Calculator](https://github.com/chrscmpl/odin-calculator)**

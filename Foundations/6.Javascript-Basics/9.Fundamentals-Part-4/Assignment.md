@@ -1,1 +1,1 @@
-## [Exercises](https://github.com/chrscmpl/javascript-exercises)
+## [Exercises 1 to 7](https://github.com/chrscmpl/javascript-exercises)

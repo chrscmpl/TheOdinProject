@@ -43,3 +43,6 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
     - **[PROJECT: Etch a Sketch](https://github.com/chrscmpl/odin-etch-a-sketch)**
     - [Fundamentals Part 5](https://github.com/chrscmpl/TOP/tree/main/Foundations/6.Javascript-Basics/12.Fundamentals-Part-5)
     - **[PROJECT: Calculator](https://github.com/chrscmpl/odin-calculator)**
+  - [The Back End](https://github.com/chrscmpl/TOP/tree/main/Foundations/7.The-Back-End)
+    - [Introduction to the Back End](https://github.com/chrscmpl/TOP/tree/main/Foundations/7.The-Back-End/1.Introduction-to-the-Back-End)
+    - [Introduction to Frameworks](https://github.com/chrscmpl/TOP/tree/main/Foundations/7.The-Back-End/2.Introduction-to-Frameworks)

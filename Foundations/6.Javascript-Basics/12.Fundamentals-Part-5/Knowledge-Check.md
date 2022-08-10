@@ -19,20 +19,20 @@ return object.key ?? object.realProperty;
 
 //OBJECT LITERAL
 const person{
-	name: 'John',
-	age: Math.floor(Math.random() * 100),
-	greet(){
-		return `Hi, I am ${this.name} and I am ${this.age} years old.`;
-	}
+  name: 'John',
+  age: Math.floor(Math.random() * 100),
+  greet(){
+    return `Hi, I am ${this.name} and I am ${this.age} years old.`;
+  }
 }
 
 //CONSTRUCTOR
 function Person(name) {
-	this.name = name ?? 'no name';
-	this.age = Math.floor(Math.random() * 100);
-	this.greet = function () {
-		return `Hi, I am ${this.name} and I am ${this.age} years old.`;
-	};
+  this.name = name ?? 'no name';
+  this.age = Math.floor(Math.random() * 100);
+  this.greet = function () {
+    return `Hi, I am ${this.name} and I am ${this.age} years old.`;
+  };
 }
 ```
 

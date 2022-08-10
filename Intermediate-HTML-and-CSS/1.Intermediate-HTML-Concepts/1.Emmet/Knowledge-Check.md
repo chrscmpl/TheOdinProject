@@ -12,22 +12,22 @@ Emmet allows you to create multiple HTML elements using CSS style selectors, so 
 <!-- (.container>ul>li*5{List item $})+footer>ul>li*5>a#footer-link-${click me} -->
 <!-- EXPANDS TO: -->
 <div class="container">
-	<ul>
-		<li>List item 1</li>
-		<li>List item 2</li>
-		<li>List item 3</li>
-		<li>List item 4</li>
-		<li>List item 5</li>
-	</ul>
+  <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+    <li>List item 4</li>
+    <li>List item 5</li>
+  </ul>
 </div>
 <footer>
-	<ul>
-		<li><a href="" id="footer-link-1">click me</a></li>
-		<li><a href="" id="footer-link-2">click me</a></li>
-		<li><a href="" id="footer-link-3">click me</a></li>
-		<li><a href="" id="footer-link-4">click me</a></li>
-		<li><a href="" id="footer-link-5">click me</a></li>
-	</ul>
+  <ul>
+    <li><a href="" id="footer-link-1">click me</a></li>
+    <li><a href="" id="footer-link-2">click me</a></li>
+    <li><a href="" id="footer-link-3">click me</a></li>
+    <li><a href="" id="footer-link-4">click me</a></li>
+    <li><a href="" id="footer-link-5">click me</a></li>
+  </ul>
 </footer>
 ```
 

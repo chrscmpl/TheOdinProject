@@ -20,7 +20,7 @@ Functions used in expressions or passed as arguments to other functions, written
 
 ```javascript
 btn.addEventListener('click', function () {
-	alert('You clicked the button');
+  alert('You clicked the button');
 });
 ```
 

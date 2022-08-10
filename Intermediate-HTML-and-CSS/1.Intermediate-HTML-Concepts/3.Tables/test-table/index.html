@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./minimal-table.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>tables</title>
+	</head>
+	<body>
+		<table>
+			<caption>
+				TABLE CAPTION
+			</caption>
+			<colgroup>
+				<col />
+				<col style="background-color: orange; border: 2px solid blue" />
+				<col style="width: 5%; background-color: yellow" />
+				<col
+					style="
+						background-color: rgb(0, 255, 98);
+						border: 2px solid rgb(255, 0, 208);
+					"
+					span="2"
+				/>
+			</colgroup>
+			<thead>
+				<tr>
+					<th></th>
+					<th colspan="2" scope="colgroup">columns 1 and 2</th>
+					<th colspan="2" scope="colgroup">columns 3 and 4</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th scope="col">column 1</th>
+					<th scope="col">column 2</th>
+					<th scope="col">column 3</th>
+					<th scope="col">column 4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">row 1</th>
+					<td>
+						<table>
+							<tr>
+								<td>cell 1</td>
+								<td>cell 2</td>
+							</tr>
+							<tr>
+								<td>cell 1</td>
+								<td>cell 2</td>
+							</tr>
+						</table>
+					</td>
+					<td colspan="2">cell 2</td>
+					<td>cell 3</td>
+				</tr>
+				<tr>
+					<th scope="row">row 2</th>
+					<td>cell 1</td>
+					<td>cell 2</td>
+					<td>cell 3</td>
+					<td rowspan="2">cell 4</td>
+				</tr>
+				<tr>
+					<th scope="row">row 3</th>
+					<td>cell 1</td>
+					<td>cell 2</td>
+					<td>cell 3</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">row 4</th>
+					<td>cell 1</td>
+					<td>cell 2</td>
+					<td>cell 3</td>
+					<td>cell 4</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

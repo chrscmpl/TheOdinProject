@@ -1,0 +1,26 @@
+body {
+	background-color: dimgray;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+caption {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+thead {
+	border: 2px dashed red;
+}
+
+tbody {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+tfoot {
+	border: 2px dashed black;
+}

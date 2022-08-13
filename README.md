@@ -77,3 +77,4 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
 
   - [Default Styles](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/1.Default-Styles)
   - [CSS Units](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/2.CSS-Units)
+  - [More Text Styles](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/3.More-Text-Styles)

@@ -84,7 +84,7 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
   - [CSS Functions](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/7.CSS-Functions)
   - [Custom Properties](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/8.Custom-Properties)
   - [Browser Compatibility](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/9.Browser-Compatibility)
-  - [Frameworks and Preprocessors](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/10.Frameworks-and-Preprocessors)
+  - [Frameworks and Preprocessors](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/10.Frameworks-and-Preprocessors)
 
 - ### [Forms](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/3.Forms)
 

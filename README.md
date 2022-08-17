@@ -85,3 +85,18 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
   - [Custom Properties](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/8.Custom-Properties)
   - [Browser Compatibility](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/2.Intermediate-CSS-Concepts/9.Browser-Compatibility)
   - [Frameworks and Preprocessors](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/10.Frameworks-and-Preprocessors)
+
+- ### [Forms](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/3.Forms)
+
+  - [Form Basics](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/3.Forms/1.Form-Basics)
+  - [Form Validation](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/3.Forms/2.Form-Validation)
+  - **[PROJECT: Sign-up Form](https://github.com/chrscmpl/odin-sign-up-form)**
+
+- ### [Grid](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid)
+
+  - [Introduction to Grid](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/1.Introduction-to-Grid)
+  - [Creating a Grid](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/2.Creating-a-Grid)
+  - [Positioning Grid Elements](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/3.Positioning-Grid-Elements)
+  - [Advanced Grid Properties](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/4.Advanced-Grid-Properties)
+  - [Using Flexbox and Grid](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/5.Using-Flexbox-and-Grid)
+  - **[PROJECT: Admin Dashboard](https://github.com/chrscmpl/odin-admin-dashboard)**

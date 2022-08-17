@@ -4,7 +4,7 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
 
 ---
 
-- ## [Foundations](https://github.com/chrscmpl/TOP/tree/main/Foundations)
+## [Foundations](https://github.com/chrscmpl/TOP/tree/main/Foundations)
 
 - ### [Prerequisites](https://github.com/chrscmpl/TOP/tree/main/Foundations/1.Prerequisites)
 
@@ -65,7 +65,7 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
 
 ---
 
-- ## [Intermediate HTML and CSS](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS)
+## [Intermediate HTML and CSS](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS)
 
 - ### [Intermediate HTML Concepts](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/1.Intermediate-HTML-Concepts)
 

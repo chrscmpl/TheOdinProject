@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./index.js" defer></script>
+		<title>Form</title>
+	</head>
+	<body>
+		<form action="http://httpbin.org/post" method="post">
+			<h1>Random Form</h1>
+			<section>
+				<h3>User Authentication</h3>
+				<ul>
+					<li id="email-input">
+						<label for="email">Email:</label
+						><input
+							type="email"
+							id="email"
+							placeholder="johnjones@gmail.com"
+							name="email"
+							autofocus
+						/>
+						<span></span>
+					</li>
+					<li id="password-input">
+						<label for="password">Password:</label
+						><input type="password" id="password" name="password" />
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Your info</h3>
+				<ul>
+					<li id="name-input">
+						<label for="full-name">Your Name:</label>
+						<input
+							type="text"
+							id="full-name"
+							placeholder="John Jones"
+							name="full-name"
+						/>
+					</li>
+					<li id="number-input">
+						<label for="phone-number">Phone:</label
+						><input type="tel" id="phone-number" name="phone-number" />
+					</li>
+					<li id="birthday-input">
+						<label for="birthday">Birthday:</label
+						><input type="date" id="birthday" name="birthday" />
+					</li>
+				</ul>
+			</section>
+			<section>
+				<fieldset id="os-input">
+					<legend>What operative system do you use?</legend>
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="windows"
+								name="os"
+								value="windows"
+								checked
+							/><label for="windows">Windows</label>
+						</li>
+						<li>
+							<input type="radio" id="macos" name="os" value="macos" /><label
+								for="macos"
+								>MacOS</label
+							>
+						</li>
+						<li>
+							<input type="radio" id="linux" name="os" value="linux" /><label
+								for="linux"
+								>Linux</label
+							>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset id="devices-input">
+					<legend>What devices do you own?</legend>
+					<ul>
+						<li>
+							<input
+								type="checkbox"
+								id="desktop"
+								name="devices"
+								value="desktop"
+							/><label for="desktop">Desktop</label>
+						</li>
+						<li>
+							<input
+								type="checkbox"
+								id="laptop"
+								name="devices"
+								value="laptop"
+							/><label for="laptop">Laptop</label>
+						</li>
+						<li>
+							<input
+								type="checkbox"
+								id="tablet"
+								name="devices"
+								value="tablet"
+							/><label for="tablet">tablet</label>
+						</li>
+					</ul>
+				</fieldset>
+			</section>
+
+			<section>
+				<ul>
+					<li id="favorite-language-input">
+						<label for="favorite-language"
+							>Favorite Programming Language:</label
+						>
+						<select name="favorite-language" id="favorite-language">
+							<optgroup label="You are a web developer">
+								<option value="typescript">TypeScript</option>
+								<option value="javascript" selected>JavaScript</option>
+							</optgroup>
+							<optgroup label="You were taught this in university">
+								<option value="cpp">C++</option>
+								<option value="c">C</option>
+							</optgroup>
+							<optgroup label="You are a teenager">
+								<option value="python">Python</option>
+							</optgroup>
+							<optgroup label="you are crying">
+								<option value="java">Java</option>
+							</optgroup>
+						</select>
+					</li>
+					<li id="Favorite-IDE-input">
+						<label for="favorite-IDE">Favorite IDE:</label>
+						<input
+							type="text"
+							id="favorite-IDE"
+							name="favorite-IDE"
+							list="IDE-suggestions"
+						/>
+						<datalist id="IDE-suggestions">
+							<option value="Visual Studio Code">This one</option>
+							<option>Visual Studio</option>
+							<option>Notepad</option>
+						</datalist>
+					</li>
+					<li id="suggestion-input">
+						<label for="suggestion">Suggestions:</label>
+						<textarea
+							name="suggestion"
+							id="suggestion"
+							cols="30"
+							rows="5"
+						></textarea>
+					</li>
+				</ul>
+				<input
+					type="hidden"
+					id="hidden-value"
+					name="hidden-value"
+					value="The user can't see me I am invisible I win"
+				/>
+			</section>
+			<section>
+				<ul>
+					<li id="image-input">
+						<input
+							type="image"
+							alt="click me!"
+							name="image"
+							id="image"
+							src="https://www.ansa.it/webimages/img_457x/2022/1/11/13f036403c0422c051a142c6214988da.jpg"
+						/>
+					</li>
+					<li id="slider-input">
+						<label for="slider">Sliders are cool </label>
+						<input
+							type="range"
+							name="slider"
+							id="slider"
+							min="0"
+							max="500000"
+							step="10"
+							value="1000"
+						/>
+						<output class="slider-output" for="slider"></output>
+					</li>
+					<li id="file-input">
+						<input
+							type="file"
+							name="file"
+							id="file"
+							accept=".jpg,.jpeg,.png,.ico;capture=camera"
+						/>
+					</li>
+					<li id="color-input">
+						<label for="color">Pick a color:</label>
+						<input type="color" id="color" name="color" />
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="button-container">
+					<button type="submit">Submit</button
+					><button type="reset">Reset</button>
+				</div>
+			</section>
+		</form>
+	</body>
+</html>

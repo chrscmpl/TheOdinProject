@@ -48,4 +48,4 @@ By giving them different `fr` values.
 
 ## **What is the difference between auto-fit and auto-fill?**
 
-When there are not enough items to fill one grid row, auto-fit will use the second argument of the `minmax()` function, meaning their max size, while auto-fill will use the first argument, representing their min size.
+When there are not enough items to fill one grid row, auto-fill will keep adding new columns even if they are empty, while auto-fit won't.

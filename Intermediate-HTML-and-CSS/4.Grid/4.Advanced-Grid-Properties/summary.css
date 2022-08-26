@@ -1,0 +1,10 @@
+.grid-container {
+	grid-template-rows: repeat(5, 2fr) 1fr;
+	grid-template-columns: min(1fr, 500px);
+	grid-auto-rows: max(1fr, 1000px);
+	grid-auto-columns: minmax(500px, 1000px);
+	grid-template-rows: clamp(500px, 80%, 1000px);
+	grid-template-columns: repeat(auto-fit, 200px);
+	grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}

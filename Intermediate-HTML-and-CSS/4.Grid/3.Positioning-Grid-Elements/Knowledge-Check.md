@@ -1,35 +1,3 @@
-```css
-.grid-container {
- grid-template: 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px;
- grid-template-areas:
-  'a a a a a'
-  'b b b b b'
-  'b b b b b'
-  'c c d e .'
-  'c c d . .';
-}
-
-.grid-item {
- grid-row-start: 2;
- grid-row-end: 4;
-
- grid-column-start: 1;
- grid-column-end: 6;
-
- grid-row: 2 / 4;
- grid-column: 1 / 6;
-
- grid-area: 2 / 1 / 4 / 6;
-
- grid-area: b;
-
- /* grid-column: 1 / -1;
- grid-column: 3 / span 3;
- grid-column: span 3 / 6; 
- grid-column: 1 / span d; */
-}
-```
-
 ## **Explain the difference between a track and a line.**
 
 A track is the space between two horizontal or vertical lines. Tracks represent the actual rows and columns. Lines delimit the start and end of each track.

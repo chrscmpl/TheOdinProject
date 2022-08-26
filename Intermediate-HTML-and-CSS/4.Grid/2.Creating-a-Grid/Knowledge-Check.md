@@ -1,18 +1,3 @@
-```css
-.container {
- display: grid;
- /* grid-template-rows: 50px 50px;
-  grid-template-columns: 60px 60px; */
- grid-template: 50px 50px / 60px 60px;
- grid-auto-rows: 50px;
- grid-auto-columns: 60px;
- grid-auto-flow: column;
- /* row-gap: 10px;
- column-gap: 20px; */
- gap: 10px 20px;
-}
-```
-
 ## **How does an HTML element become a grid item?**
 
 By being inside of a grid container (`display: grid`).

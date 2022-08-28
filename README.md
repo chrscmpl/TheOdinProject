@@ -123,4 +123,4 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
   - [Linting](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/1.Linting)
   - [Dynamic User Interface Interactions](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/2.Dynamic-User-Interface-Interactions)
   - [Form Validation with JavaScript](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/3.Form-Validation-with-JavaScript)
-  - [What is ES6?](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/4.What-is-ES6?)
+  - [What is ES6?](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/4.What-is-ES6%3F)

@@ -48,7 +48,7 @@ This mindset is correct when dealing with this and will save you from the headac
 
 This points to the current context.
 
-- Function calls by default create a new context using the global object (window in browsers).
+- Function calls and any function or method passed as an argument to another function by default use the global object (window in browsers) as their context.
 - Methods use the object the method is called from as the context.
 - The `new` keyword preceding constructors in objects declarations creates a new object for the constructor to use as the context.
 - Function.prototype's methods such as `Function.prototype.call()` and `Function.prototype.apply()` call the function by explicitly giving it a set context, while `Function.prototype.bind()` returns a new function whose context is always going to be the one passed as an argument, and cannot be changed.

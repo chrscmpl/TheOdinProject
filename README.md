@@ -100,3 +100,27 @@ My notes, knowledge checks, assignments and projects accumulated while going thr
   - [Advanced Grid Properties](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/4.Advanced-Grid-Properties)
   - [Using Flexbox and Grid](https://github.com/chrscmpl/TOP/tree/main/Intermediate-HTML-and-CSS/4.Grid/5.Using-Flexbox-and-Grid)
   - **[PROJECT: Admin Dashboard](https://github.com/chrscmpl/odin-admin-dashboard)**
+
+---
+
+## [JavaScript](https://github.com/chrscmpl/TOP/tree/main/JavaScript)
+
+- ### [Organizing your JavaScript Code](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code)
+
+  - [Objects and Object Constructors](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/1.Objects-and-Object-Constructors)
+  - **[PROJECT: Library](https://github.com/chrscmpl/odin-library)**
+  - [Factory Functions and the Module Pattern](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/3.Factory-Functions-and-the-Module-Pattern)
+  - **[PROJECT: Tic Tac Toe](https://github.com/chrscmpl/odin-tic-tac-toe)**
+  - [Classes](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/5.Classes)
+  - [ES6 Modules](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/6.ES6-Modules)
+  - [Webpack](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/7.Webpack)
+  - **[PROJECT: Restaurant Page](https://github.com/chrscmpl/odin-restaurant-page)**
+  - [OOP Principles](https://github.com/chrscmpl/TOP/tree/main/JavaScript/1.Organizing-your-JavaScript-Code/9.OOP-Principles)
+  - **[PROJECT: Todo List](https://github.com/chrscmpl/odin-todo-list)**
+
+- ### [JavaScript in the Real World](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World)
+
+  - [Linting](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/1.Linting)
+  - [Dynamic User Interface Interactions](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/2.Dynamic-User-Interface-Interactions)
+  - [Form Validation with JavaScript](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/3.Form-Validation-with-JavaScript)
+  - [What is ES6?](https://github.com/chrscmpl/TOP/tree/main/JavaScript/2.JavaScript-in-the-Real-World/4.What-is-ES6?)

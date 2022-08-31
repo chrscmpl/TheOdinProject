@@ -9,12 +9,12 @@
 
 ```javascript
 const createPerson = function (name) {
- return {
-  name: name,
-  greet: function () {
-   console.log(`Hi, I am ${this.name}`);
-  },
- };
+  return {
+    name: name,
+    greet: function () {
+      console.log(`Hi, I am ${this.name}`);
+    },
+  };
 };
 
 const john = createPerson('John');
@@ -44,20 +44,20 @@ They allow us to implement encapsulation and checking for our variables using se
 
 ```javascript
 const proto = {
- greet: function () {
-  console.log(`Hi, I am ${this.name} and I am ${this.getAge()} years old`);
- },
- method2: function () {},
+  greet: function () {
+    console.log(`Hi, I am ${this.name} and I am ${this.getAge()} years old`);
+  },
+  method2: function () {},
 };
 
 //age is private and we need to define whatever getter and setter for the function
 //inside of the object itself, as prototypes cannot access private variables
 const personFactory = function (name, age) {
- // const obj = Object.create(proto);
- // obj.name = name;
- // obj.getAge = () => age;
- // return obj;
- return Object.assign(Object.create(proto), { name: name, getAge: () => age });
+  // const obj = Object.create(proto);
+  // obj.name = name;
+  // obj.getAge = () => age;
+  // return obj;
+  return Object.assign(Object.create(proto), { name: name, getAge: () => age });
 };
 
 const kate = personFactory('Kate', 62);
@@ -73,25 +73,25 @@ The module pattern is another way to create an object with private and public me
 
 ```javascript
 const math = (function () {
- //private variable
- const _pi = 3.14;
+  //private variable
+  const _pi = 3.14;
 
- //private methods
- const _multiply = function (acc, ...args) {
-  return args.reduce((acc, x) => acc * x, acc);
- };
+  //private methods
+  const _multiply = function (acc, ...args) {
+    return args.reduce((acc, x) => acc * x, acc);
+  };
 
- const _power = function (base, ...exponents) {
-  return base ** _multiply(...exponents);
- };
+  const _power = function (base, ...exponents) {
+    return base ** _multiply(...exponents);
+  };
 
- //public method
- const areaOfCircle = function (r) {
-  return _power(r, 2) * _pi;
- };
+  //public method
+  const areaOfCircle = function (r) {
+    return _power(r, 2) * _pi;
+  };
 
- // we return an object composed of only our public methods
- return { areaOfCircle };
+  // we return an object composed of only our public methods
+  return { areaOfCircle };
 })();
 
 console.log(math.areaOfCircle(10));
@@ -116,42 +116,42 @@ Using modules as namespaces we can avoid name conflicts and keep the global name
 ```javascript
 // dummy document object to make DOM_API ""work""
 const document = {
- body: {
-  appendChild: () => {},
- },
- createElement: () => {},
+  body: {
+    appendChild: () => {},
+  },
+  createElement: () => {},
 };
 
 const calculator = (function () {
- const add = function (...args) {
-  return args.reduce((acc, x) => acc + x);
- };
+  const add = function (...args) {
+    return args.reduce((acc, x) => acc + x);
+  };
 
- const subtract = function (...args) {
-  return args.reduce((acc, x) => acc - x);
- };
+  const subtract = function (...args) {
+    return args.reduce((acc, x) => acc - x);
+  };
 
- const multiply = function (acc, ...args) {
-  return args.reduce((acc, x) => acc * x, acc);
- };
+  const multiply = function (acc, ...args) {
+    return args.reduce((acc, x) => acc * x, acc);
+  };
 
- const divide = function (acc, ...args) {
-  return args.reduce((acc, x) => acc / x, acc);
- };
+  const divide = function (acc, ...args) {
+    return args.reduce((acc, x) => acc / x, acc);
+  };
 
- const power = function (base, ...exponents) {
-  return base ** multiply(...exponents);
- };
+  const power = function (base, ...exponents) {
+    return base ** multiply(...exponents);
+  };
 
- return { add, subtract, multiply, divide, power };
+  return { add, subtract, multiply, divide, power };
 })();
 
 const DOM_API = (function (DOMElem) {
- const add = function (node) {
-  DOMElem.appendChild(node);
-  console.log('the element was added to the DOM');
- };
- return { add };
+  const add = function (node) {
+    DOMElem.appendChild(node);
+    console.log('the element was added to the DOM');
+  };
+  return { add };
 })(document.body);
 
 console.log(calculator.add(1, 6, 13)); //20

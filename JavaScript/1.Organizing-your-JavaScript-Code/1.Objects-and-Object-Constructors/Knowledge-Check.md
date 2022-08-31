@@ -2,7 +2,7 @@
 
 ```javascript
 function Book(title) {
-	this.title = title;
+ this.title = title;
 }
 
 const harryPotter = new Book('Harry Potter');

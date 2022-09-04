@@ -86,7 +86,7 @@ class Temperature{
   kelvin: 'kelvin',
   celsius: 'celsius',
   fahrenheit: 'fahrenheit'
-  }
+  };
 
   #temperature;
 
@@ -233,7 +233,7 @@ R2D2.clean();
 ## **Why is favoring Composition over Inheritance suggested?**
 
 Inheritance can bring to complex trees of relationships between classes, that can be hard to escape.
-Composition is creating object based on **what they can do** instead of what they are,allowing for a much more flexible structure. To implement it we use **mix-ins**.
+Composition is creating objects based on **what they can do** instead of what they are,allowing for a much more flexible structure. To implement it we use **mix-ins**.
 
 
 ```javascript

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('./OpenSans-Regular.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.hello {
+	color: red;
+	background: url('./done.svg');
+	background-size: contain;
+	font-family: 'myFont';
+}

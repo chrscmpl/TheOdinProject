@@ -48,9 +48,9 @@ It allows your code to be much better organized and clean, by separating it in d
 
 ## **Explain “named exports” and “default exports”.**
 
-Named exports are single functions / classes / objects / variables being exported by a module with a their name, to import a specific named export, you must use the name was exported with (though you can rename is using the `as` keyword) between curly brackets it.
+Named exports are single functions / classes / objects / variables being exported by a module with a name. to import a specific named export, you must use the name it was exported with between curly brackets (though you can rename it using the `as` keyword).
 
-Default exports are the fallback value when importing from a file, you can use any name in the import declaration and if it will be assigned to the default export of the module.
+Default exports are the fallback value when importing from a file, you can use any name in the import declaration and it will be assigned to the default export of the module.
 
 ```javascript
 //Person.js
